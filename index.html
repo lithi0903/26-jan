@@ -6,16 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <nav>
             <ul>
-                <li>Nan</li>
-                <li>Speer</li>
-                <li>Floatrios</li>
-                <li>Hetssar</li>
-                <li>Hirass</li>
-                <li>Uascint</li><br>
+                <li><a href="nan.html">Nan</a></li>
+                <li><a href="speer.html">Speer</a></li>
+                <li><a href="Floatrios.html">Floatrios</a></li>
+                <li><a href="hetssar.html">Hetssar</a></li>
+                <li><a href="hirass.html">Hirass</a></li>
+                <li><a href="Uascint.html">Uascint</a></li><br>
+
             </ul>
         </nav>
         <div>
@@ -27,7 +29,7 @@
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing<br>
         Iste unde ullam nesciunt repellat fuga,<br>
         repudiandae molestiae deserunt nam eveniet doloribus<br></p>
-        <div style="position:relative;
+    <div style="position:relative;
        height:100px;">
         <button style="position: absolute;left:0;
         background-color: #f03fa9;
@@ -40,7 +42,7 @@
             <div class="feature">
                 <h3>Horere Cronus</h3>
                 <p>Lorem ipsum dolor sit amet<br>
-                     consectetur adipisicing <br>
+                    consectetur adipisicing <br>
                     Deleniti itaque libero, debitis dolores.</p>
                 <button>Explore</button>
             </div>
@@ -54,7 +56,7 @@
             <div class="feature">
                 <h3>Uramed Plioe</h3>
                 <p>Lorem ipsum dolor sit amet<br>
-                     consectetur adipisicing <br>
+                    consectetur adipisicing <br>
                     Deleniti itaque libero, debitis dolores.</p>
                 <button>Get Started</button>
             </div>
@@ -76,26 +78,31 @@
         header {
 
             display: flex;
-            justify-content:center;
+            justify-content: center;
             align-items: center;
             padding: 20px 50px;
             background: transparent;
             text-align: center;
         }
 
-        nav ul {
+        nav ul li a {
             list-style: none;
             display: inline-flex;
             gap: 20px;
             color: white;
             text-align: center;
             align-items: center;
+            font-size: inherit;
+            display: inline-block;
+            padding: 5px 10px;
+            text-decoration: none;
 
         }
 
         nav ul li {
             cursor: pointer;
             text-align: center;
+            display:inline-block;
         }
 
         .cta {
@@ -109,7 +116,7 @@
         .cta {
             margin-right: 10px;
             background: linear-gradient(#7873f5, #ff6ec4);
-            position:right;
+            position: right;
         }
 
         .features {
@@ -149,15 +156,17 @@
         p {
             text-align: left;
             margin: 20px 0;
-            font-size:large;
+            font-size: large;
             color: azure;
 
         }
-        h1{
-            font-size:xx-large;   
+
+        h1 {
+            font-size: xx-large;
         }
-        h2{
-            font-size:xx-larger;
+
+        h2 {
+            font-size: xx-larger;
         }
     </style>
 </body>
